@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册</title>
+<link rel="stylesheet" type="text/css" href="css/regiest.css">
+
+</head>
+<body>
+	
+		<div class="layout">
+		<div class = "header">橘子账号注册</div>
+		<div class = "contents">
+		<div class = "regiestbox">
+		<form action="RegiestDBCquery" method="post">
+			
+			<div class="label1"><span id = "forLabel1"></span><input type="text" id="userNumber" name="userNumber" maxlength="12" minlength="9" required="required" placeholder="账号："><span id="userNumberTips"> </span></div>
+	
+			<input type="password" name="userPassword" required="required" placeholder="密码：" id="password">
+			<input type="password" name="" required="required" placeholder="确认密码：" id="password_check"><span id="userPasswordTips"></span>
+			<input type="submit" name="userSubmit" id="submit" value="立即注册">
+		</form>
+		</div>
+		</div>
+		</div>
+
+<script type="text/javascript" src="js/regiestAjax.js"></script>
+
+</body>
+</html>
